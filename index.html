@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>La Etiqueta de Atrás | Inicio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/nutritional_icon.ico"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark p-2">
+        <div
+          class="container-fluid d-flex flex-wrap justify-content-between align-items-center"
+        >
+          <!-- Logo -->
+          <a class="nav d-flex navbar-brand align-self-start" href="#">
+            <img
+              src="./assets/nutritional_claro.png"
+              alt="la etiqueta de atrás logo"
+            />
+            <p>LA ETIQUETA DE ATRÁS</p>
+          </a>
+
+          <!-- Links -->
+          <div>
+            <button
+              class="navbar-toggler ms-auto"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul
+              class="navbar-nav collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="./pages/contact.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Slider -->
+      <div class="slider container-fluid">
+        <p class="text-center px-5">En este sitio vas a poder encontrar la información nutricional de productos de supermercado directamente desde sus etiquetas con el propósito de brindarte datos necesarios para tomar decisiones informadas sobre tu alimentación. Explorá la plataforma y descubre cómo puedes mejorar tu bienestar a través del conocimiento nutricional. ¡Empezá a mejorar el control sobre tu salud hoy mismo!</p>
+      </div>
+    </header>
+
+    <main>
+      <!-- Selector -->
+      <div class="container-fluid selector">
+        <div class="row">
+          <div class="col-12 col-md-8 d-flex align-items-center justify-content-center">
+            <p class="m-0">Filtrar por categoría:</p>
+            <form action="#" class="d-flex justify-content-center flex-wrap" id="categorySelectors">
+            </form>
+          </div>
+
+          <div class="col d-flex justify-content-center flex-grow-1">
+            <form class="d-flex align-self-center" role="search">
+              <input
+                class="form-control me-2"
+                type="text"
+                placeholder="Buscar producto"
+                id="searchBox"
+              />
+              <button class="btn shadow" type="submit" id="btnSearch">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div class="container-fluid cards-section my-5">
+        <div
+          class="row d-flex flex-wrap align-items-center justify-content-center grid gap-3" id="cardsContainer"
+        ></div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="text-center pt-3">
+        <p class="mb-2">Sitio web diseñado y desarrollado por <a href="https://github.com/arielLevita" target="_blank">Ariel Levita</a></p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./scripts/generalModule.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>
