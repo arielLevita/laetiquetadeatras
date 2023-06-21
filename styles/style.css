@@ -78,6 +78,7 @@ h1 {
 main {
     min-height: 100vh;
     background-color: var(--color-pastel-4);
+    overflow-x: hidden;
 }
 
 footer {
@@ -95,10 +96,12 @@ footer a {
 
 /* Home  */
 
+#searchBox {
+    background-color: #fff;
+}
+
 .selector {
-    min-height: 4rem;
     font-weight: 600;
-    padding: 1rem;
 }
 
 .form-check-input {
