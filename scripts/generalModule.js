@@ -14,7 +14,7 @@ export function checkboxGenerator(productsArray, categoryCheckboxes) {
     let docFrag = document.createDocumentFragment();
     filteredCategoriesArray.forEach(category => {
         let div = document.createElement("div");
-        div.classList.add('d-flex', 'align-items-center', 'flex-grow-1');
+        div.classList.add('d-flex', 'align-items-center', 'w-100');
         div.innerHTML =
             `<input
                 class="form-check-input"

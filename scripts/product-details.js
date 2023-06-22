@@ -28,13 +28,18 @@ function detailsGenerator(product, detailsContainer) {
         `<div class="col-lg-8 p-3 details-image border border-dark" id="bg-details${product._id}">
         </div>
         <div class="col p-3 details-data bg-light">
+            <div>    
             <h3 class="text-center p-3">${product.name}</h3>
-            <ul>
-            <li class="pt-2"><span>Marca:</span> ${product.brand}</li>
-            <li class="pt-2"><span>Producto:</span> ${product.name}</li>
-            <li class="pt-2"><span>Categoría:</span> ${product.category}</li>
-            <li class="pt-2"><span>Tamaño de la porción:</span> ${product.servingSize}</li>
-            </ul>
+                <ul>
+                <li class="pt-2"><span>Marca:</span> ${product.brand}</li>
+                <li class="pt-2"><span>Producto:</span> ${product.name}</li>
+                <li class="pt-2"><span>Categoría:</span> ${product.category}</li>
+                <li class="pt-2"><span>Tamaño de la porción:</span> ${product.servingSize}</li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center">
+                <input type="button" onclick="history.back()" name="volver atrás" value="&#8249 Volver" class="btn btn-outline-dark w-100 shadow m-2">
+            </div>
         </div>`;
     detailsContainer.appendChild(div)
     document.getElementById(`bg-details${product._id}`).style.backgroundImage = `url(${product.imageBack})`;

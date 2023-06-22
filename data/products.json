@@ -26,6 +26,87 @@
             "servingSize": "5 g. (1 cuchara de te)",
             "imageFront": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/fotos/b/0000005000/15582_1.jpg",
             "imageBack": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/fotos/b/0000005000/15582_2.jpg"
+        },
+        {
+            "_id": 4,
+            "brand": "Oreo",
+            "name": "Galletitas Dulces Rellenas con Crema Oreo 354g",
+            "category": "Galletitas y Panificados",
+            "servingSize": "32 g. (3 galletitas)",
+            "imageFront": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/productos/b/0000021000/21989.jpg",
+            "imageBack": "https://d1on8qs0xdu5jz.cloudfront.net/web/images/fotos/b/0000011000/21989_1.jpg"
+        },
+        {
+            "_id": 5,
+            "brand": "Knorr",
+            "name": "Salsa Lista Knorr Pomarola 340 g.",
+            "category": "Pastas Secas y Salsa",
+            "servingSize": "60 g. (3 cucharas de sopa)",
+            "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/651463-800-auto",
+            "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/651568-800-auto"
+        },
+        {
+            "_id": 6,
+            "brand": "God Bless You",
+            "name": "Aceite De Coco God Bless You Neutro 1 L.",
+            "category": "Aceites y Vinagres",
+            "servingSize": "100 g.",
+            "imageFront": "https://http2.mlstatic.com/D_NQ_NP_927649-MLA42232532710_062020-O.webp",
+            "imageBack": "https://http2.mlstatic.com/D_NQ_NP_766547-MLU70064122291_062023-O.webp"
+        },
+        {
+            "_id": 7,
+            "brand": "Nestlé",
+            "name": "La Lechera Nutrifuerza Leche En Polvo Pack X 800 g.",
+            "category": "Infusiones",
+            "servingSize": "25 g. (2 y 1/2 cucharas soperas)",
+            "imageFront": "https://http2.mlstatic.com/D_NQ_NP_666804-MLA53559889298_022023-O.webp",
+            "imageBack": "https://http2.mlstatic.com/D_NQ_NP_986538-MLA53559741965_022023-O.webp"
+        },
+        {
+            "_id": 8,
+            "brand": "Terrabusi",
+            "name": "Oblea Rhodesia 22 g.",
+            "category": "Chocolates y Golosinas",
+            "servingSize": "22 g. (1 unidad)",
+            "imageFront": "https://http2.mlstatic.com/D_NQ_NP_793422-MLA54099190614_032023-O.webp",
+            "imageBack": "https://http2.mlstatic.com/D_NQ_NP_743138-MLA54099107809_032023-O.webp"
+        },
+        {
+            "_id": 9,
+            "brand": "Maggi",
+            "name": "Puré De Papas Maggi 200 g.",
+            "category": "Caldos, Sopas y Puré",
+            "servingSize": "25 g. (3 cucharas de sopa)",
+            "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/595161-800-auto",
+            "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/595041-800-auto"
+        },
+        {
+            "_id": 10,
+            "brand": "La Campagnola",
+            "name": "Caballa Al Natural La Campagnola 201 G.",
+            "category": "Conservas de Pescado",
+            "servingSize": "60 g. (3 cucharadas de sopa de caballa escurrida)",
+            "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/584761-800-auto",
+            "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/217466-800-auto"
+        },
+        {
+            "_id": 11,
+            "brand": "Maizena",
+            "name": "Bizcochuelo Maizena Choco Sin Tacc X450 g.",
+            "category": "Bizcochuelo, Brownies y Tortas",
+            "servingSize": "36,6 g. (3 y 1/2 cucharas de sopa)",
+            "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/771399-800-auto",
+            "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/771199-800-auto"
+        },
+        {
+            "_id": 12,
+            "brand": "Lays",
+            "name": "Papas Fritas Lays Clasicas 145 g.",
+            "category": "Snacks",
+            "servingSize": "25 g. (1 taza de té)",
+            "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/767532-800-auto",
+            "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/767296-800-auto"
         }
     ]
 }
