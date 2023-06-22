@@ -89,6 +89,7 @@ footer {
     margin: 0;
     height: 4rem;
     background-color: var(--color-logo);
+    color: var(--color-pastel-4);
 }
 
 footer a {
