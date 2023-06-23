@@ -13,9 +13,11 @@ window.onload = function() {
         emailjs.sendForm('contact_service', 'contact_form', this)
             .then(function() {
                 console.log('SUCCESS!');
+                document.getElementById('sent-message').style.color = 'green';
                 document.getElementById('sent-message').innerHTML = `Mensaje enviado exitosamente!`;
             }, function(error) {
                 console.log('FAILED...', error);
+                document.getElementById('sent-message').style.color = 'red';
                 document.getElementById('sent-message').innerHTML = `Mensaje no enviado`;
             });
     });

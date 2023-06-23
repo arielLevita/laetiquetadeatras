@@ -85,7 +85,7 @@
             "_id": 10,
             "brand": "La Campagnola",
             "name": "Caballa Al Natural La Campagnola 201 G.",
-            "category": "Conservas de Pescado",
+            "category": "Conservas",
             "servingSize": "60 g. (3 cucharadas de sopa de caballa escurrida)",
             "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/584761-800-auto",
             "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/217466-800-auto"
@@ -94,7 +94,7 @@
             "_id": 11,
             "brand": "Maizena",
             "name": "Bizcochuelo Maizena Choco Sin Tacc X450 g.",
-            "category": "Bizcochuelo, Brownies y Tortas",
+            "category": "Galletitas y Panificados",
             "servingSize": "36,6 g. (3 y 1/2 cucharas de sopa)",
             "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/771399-800-auto",
             "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/771199-800-auto"
@@ -107,6 +107,42 @@
             "servingSize": "25 g. (1 taza de té)",
             "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/767532-800-auto",
             "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/767296-800-auto"
+        },
+        {
+            "_id": 13,
+            "brand": "Rosamonte",
+            "name": "Yerba Mate Rosamonte Con Palo 500 g.",
+            "category": "Infusiones",
+            "servingSize": "50 g. (15 cucharaditas)",
+            "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/178482-800-auto",
+            "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/215584-800-auto"
+        },
+        {
+            "_id": 14,
+            "brand": "Taragüi",
+            "name": "Té Taragui Manzanilla 25 Saquitos",
+            "category": "Infusiones",
+            "servingSize": "1 sauito de 1 g.",
+            "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/776827-1200-auto",
+            "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/215566-1200-auto"
+        },
+        {
+            "_id": 15,
+            "brand": "Pehuamar",
+            "name": "Palitos Salados Pehuamar 90 g.",
+            "category": "Snacks",
+            "servingSize": "25 g. (1 taza de té)",
+            "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/767549-800-auto",
+            "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/767240-800-auto"
+        },
+        {
+            "_id": 16,
+            "brand": "Paty",
+            "name": "Hamburguesas Paty De Carne 4 U - 320 g.",
+            "category": "Congelados",
+            "servingSize": "80 g. (1 hamburguesa)",
+            "imageFront": "https://jumboargentina.vtexassets.com/arquivos/ids/773989-800-auto",
+            "imageBack": "https://jumboargentina.vtexassets.com/arquivos/ids/215965-800-auto"
         }
     ]
 }
