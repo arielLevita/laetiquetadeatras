@@ -25,7 +25,9 @@ function detailsGenerator(product, detailsContainer) {
     let div = document.createElement("div");
     div.classList.add('details-card', 'row', 'p-5', 'grid', 'gap-3');
     div.innerHTML =
-        `<div class="col-lg-8 p-3 details-image border border-dark" id="bg-details${product._id}">
+        `<div class="col-lg-8 p-0 details-image-container border border-dark" id="bg-details${product._id}">
+            <img src="${product.imageBack}">
+            <span>Pase el cursor para agrandar</span>
         </div>
         <div class="col p-3 details-data bg-light">
             <div>    
@@ -41,6 +43,5 @@ function detailsGenerator(product, detailsContainer) {
                 <input type="button" onclick="history.back()" name="volver atrás" value="&#8249 Volver" class="btn btn-outline-dark w-100 shadow m-2">
             </div>
         </div>`;
-    detailsContainer.appendChild(div)
-    document.getElementById(`bg-details${product._id}`).style.backgroundImage = `url(${product.imageBack})`;
+    detailsContainer.appendChild(div);
 }
