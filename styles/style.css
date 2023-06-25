@@ -195,6 +195,15 @@ footer a {
 .contact-form, .form-control {
     background-color: var(--color-pastel-4);
     border: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 1rem;
+}
+
+.legend {
+    margin-top: 2rem;
+    font-size: smaller;
+    color: #888888;
+    text-align: center;
+    font-style: italic;
 }
 
 .contact-form input, #message {
