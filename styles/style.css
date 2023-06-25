@@ -198,12 +198,16 @@ footer a {
     margin-bottom: 1rem;
 }
 
-.legend {
-    margin-top: 2rem;
+fieldset {
+    margin-top: 1.5rem;
+}
+
+legend {
     font-size: smaller;
     color: #888888;
     text-align: center;
     font-style: italic;
+    margin-bottom: 0;
 }
 
 .contact-form input, #message {
@@ -212,6 +216,7 @@ footer a {
 
 .form-label {
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 

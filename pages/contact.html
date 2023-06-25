@@ -64,17 +64,21 @@
             <label for="email" class="form-label">Correo electrónico:</label>
             <input type="email" class="form-control" id="email" name="user_email" required />
 
-            <div class="legend">----- Podés colaborar con una etiqueta -----</div>
-            <label for="product" class="form-label">Producto:</label>
-            <input type="text" class="form-control" id="product" name="user_product" />
-            <label for="urlFront" class="form-label">URL de la imagen frontal:</label>
-            <input type="text" class="form-control" id="urlFront" name="user_url_front" />
-            <label for="urlBack" class="form-label">URL de la imagen trasera:</label>
-            <input type="text" class="form-control" id="urlBack" name="user_url_back" />
+            <fieldset>
+              <legend>----- Podés colaborar con una etiqueta -----</legend>
+              <label for="product" class="form-label">Producto:</label>
+              <input type="text" class="form-control" id="product" name="user_product" />
+              <label for="urlFront" class="form-label">URL de la imagen frontal:</label>
+              <input type="text" class="form-control" id="urlFront" name="user_url_front" />
+              <label for="urlBack" class="form-label">URL de la imagen trasera:</label>
+              <input type="text" class="form-control" id="urlBack" name="user_url_back" />
+            </fieldset>
 
-            <div class="legend">----- Y dejar tu comentario -----</div>
-            <label for="message" class="form-label">Mensaje:</label>
-            <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+            <fieldset>
+              <legend>----- Y dejar tu comentario -----</legend>
+              <label for="message" class="form-label">Mensaje:</label>
+              <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+            </fieldset>
 
             <div class="d-flex">
               <button type="submit" value="send" class="btn w-25 shadow ms-auto">Enviar</button>
