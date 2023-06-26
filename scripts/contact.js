@@ -1,3 +1,12 @@
+let btnBorrar = document.getElementById("btn-borrar");
+
+btnBorrar.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.forms[0].reset();
+    document.getElementById("precioTotal").innerHTML = "";
+});
+
+
 (function() {
     // https://dashboard.emailjs.com/admin/account
     emailjs.init('ly3HRv4UR8fqjzOmK');
