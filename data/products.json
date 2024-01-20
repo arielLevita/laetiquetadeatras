@@ -143,6 +143,78 @@
             "servingSize": "80 g. (1 hamburguesa)",
             "imageFront": "https://i.postimg.cc/sXPCfSGv/image.jpg",
             "imageBack": "https://i.postimg.cc/VvYQJ6X4/image.jpg"
+        },
+        {
+            "_id": 17,
+            "brand": "Hellmann's",
+            "name": "Mayonesa Clasica Hellmann's 950 Gr",
+            "category": "Aderezos",
+            "servingSize": "12 g. (1 cucharada de sopa)",
+            "imageFront": "https://i.postimg.cc/GmZD1hfv/image.jpg",
+            "imageBack": "https://i.postimg.cc/25hZjNpM/image.jpg"
+        },
+        {
+            "_id": 18,
+            "brand": "Hellmann's",
+            "name": "Ketchup Hellmanns 250 Gr",
+            "category": "Aderezos",
+            "servingSize": "12 g. (1 cucharada de sopa)",
+            "imageFront": "https://i.postimg.cc/yYRgyzxd/image.jpg",
+            "imageBack": "https://i.postimg.cc/RZz3PbJT/image.jpg"
+        },
+        {
+            "_id": 19,
+            "brand": "Savora",
+            "name": "Mostaza Original Savora 500 Gr",
+            "category": "Aderezos",
+            "servingSize": "12 g. (1 cucharada de sopa)",
+            "imageFront": "https://i.postimg.cc/3whtTTWf/image.jpg",
+            "imageBack": "https://i.postimg.cc/26cGhLGg/image.jpg"
+        },
+        {
+            "_id": 20,
+            "brand": "Cocinero",
+            "name": "Aceite De Girasol Cocinero 900 Ml",
+            "category": "Aceites y Vinagres",
+            "servingSize": "13 ml. (1 cucharada de sopa)",
+            "imageFront": "https://i.postimg.cc/SNvvM3RD/image.jpg",
+            "imageBack": "https://i.postimg.cc/52QkqgF1/image.jpg"
+        },
+        {
+            "_id": 21,
+            "brand": "Dos Hermanos",
+            "name": "Arroz Yamani Dos Hermanos 500 Gr",
+            "category": "Arroz y Legumbres",
+            "servingSize": "50 g. (1/4 taza)",
+            "imageFront": "https://i.postimg.cc/vZVCdndQ/image.jpg",
+            "imageBack": "https://i.postimg.cc/Dz3Hfz21/image.jpg"
+        },
+        {
+            "_id": 22,
+            "brand": "Terma",
+            "name": "Amargo Terma Limon 1,35 L",
+            "category": "Bebidas",
+            "servingSize": "200 ml. (1 vaso)",
+            "imageFront": "https://i.postimg.cc/65R00xJQ/image.jpg",
+            "imageBack": "https://i.postimg.cc/FH4xCCNV/image.jpg"
+        },
+        {
+            "_id": 23,
+            "brand": "Sprite",
+            "name": "Gaseosa Sprite Lima-limón 2,25 Lt",
+            "category": "Bebidas",
+            "servingSize": "200 ml. (1 vaso)",
+            "imageFront": "https://i.postimg.cc/DyhXp2Z8/image.jpg",
+            "imageBack": "https://i.postimg.cc/2S8Bm2nY/image.jpg"
+        },
+        {
+            "_id": 24,
+            "brand": "Royal",
+            "name": "Gelatina Frutilla Regular Royal 25g",
+            "category": "Para preparar",
+            "servingSize": "3 g. de productoen polvo (1 cuchara de té)",
+            "imageFront": "https://i.postimg.cc/yNQ7CTsD/image.jpg",
+            "imageBack": "https://i.postimg.cc/Y9vMrmCb/image.jpg"
         }
     ]
 }

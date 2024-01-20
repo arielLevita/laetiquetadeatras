@@ -10,7 +10,7 @@ export function generalFilter(productsArray, cardsContainer, input) {
 export function checkboxGenerator(productsArray, categoryCheckboxes) {
     let categoriesArray = productsArray.map(product => product.category);
     let setproduct = new Set(categoriesArray);
-    let filteredCategoriesArray = Array.from(setproduct);
+    let filteredCategoriesArray = Array.from(setproduct).sort();
     let docFrag = document.createDocumentFragment();
     filteredCategoriesArray.forEach(category => {
         let div = document.createElement("div");
