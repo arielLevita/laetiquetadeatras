@@ -1,7 +1,7 @@
 :root {
     --color-logo: #6e694c;
     --color-pastel-1: #87805E;
-    --color-pastel-2: #b2b37f;
+    --color-pastel-2: #b8b189;
     --color-pastel-3: #D8CCA3;
     --color-pastel-4: #EDDFB3;
 }
@@ -88,19 +88,22 @@ header .nav-item:hover::after {
 h1 {
     font-size: clamp(2rem, 1.2125rem + 2.55vw, 3rem);
     font-weight: 800;
-    background-color: var(--color-pastel-1);
+    background-color: var(--color-pastel-2);
     margin: 0;
     text-shadow: 0 0 5px whitesmoke;
 }
 
-.slider {
-    padding: 2rem;
-    background-image: linear-gradient(90deg, var(--color-pastel-1), var(--color-pastel-3));
+.intro {
+    background-color: var(--color-pastel-2);
     text-shadow: -3px -1px 4px var(--color-pastel-4);
+    text-wrap: pretty;
 }
 
-.slider p {
-    text-wrap: pretty;
+.slider {
+    padding: 2rem;
+    background-color: var(--color-pastel-3);
+    /* background-image: linear-gradient(180deg, var(--color-pastel-3), var(--color-pastel-4)); */
+    text-shadow: -3px -1px 4px var(--color-pastel-4);
 }
 
 main {
