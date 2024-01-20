@@ -73,3 +73,4 @@ function filterByCheckbox(productsArray) {
     };
     return productsArray;
 }
+

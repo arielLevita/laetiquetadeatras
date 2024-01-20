@@ -1,7 +1,7 @@
 :root {
     --color-logo: #6e694c;
     --color-pastel-1: #87805E;
-    --color-pastel-2: #B09B71;
+    --color-pastel-2: #b2b37f;
     --color-pastel-3: #D8CCA3;
     --color-pastel-4: #EDDFB3;
 }
@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     /* la propiedad 'box-sizing' viene establecida en el valor 'border-box' a partir del link de Bootstrap */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 4px;
+    width: 6px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -26,6 +27,12 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(0deg, var(--color-pastel-2), var(--color-pastel-3));
+}
+
+.wrapper {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
 }
 
 nav {
@@ -78,17 +85,22 @@ header .nav-item:hover::after {
     transform: scaleX(1);
 }
 
+h1 {
+    font-size: clamp(2rem, 1.2125rem + 2.55vw, 3rem);
+    font-weight: 800;
+    background-color: var(--color-pastel-1);
+    margin: 0;
+    text-shadow: 0 0 5px whitesmoke;
+}
 
 .slider {
-    padding: 3rem;
+    padding: 2rem;
     background-image: linear-gradient(90deg, var(--color-pastel-1), var(--color-pastel-3));
     text-shadow: -3px -1px 4px var(--color-pastel-4);
 }
 
-h1 {
-    font-size: 50px;
-    font-weight: 800;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.slider p {
+    text-wrap: pretty;
 }
 
 main {
@@ -198,6 +210,7 @@ footer a {
     color: #212529;
     padding: 0.3rem 0.5rem 0.4rem 0.5rem;
     border: 1px solid var(--color-logo);
+    opacity: 0;
 }
 
 #toTopButton:hover {
@@ -206,6 +219,15 @@ footer a {
     -moz-transform: scale(1.3);
     -ms-transform: scale(1.3);
     -o-transform: scale(1.3);
+}
+
+#toTopButton.visible {
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
 

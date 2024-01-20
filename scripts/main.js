@@ -19,6 +19,11 @@ async function getData() {
         checkboxGenerator(productsArray, categorySelectors);
         // Generar las tarjetas a partir del arreglo de eventos.
         cardGenerator(productsArray, cardsContainer);
+
+        window.addEventListener("scroll", function () {
+            let toTop = document.getElementById("toTopButton");
+            toTop.classList.toggle("visible", window.scrollY > 0);
+        });
         return data;
     }
     catch(error) {
